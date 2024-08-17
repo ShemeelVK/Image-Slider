@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <h1>Image Slider</h1>
+    </header>
+    <div class="slider-container">
+        <div class="main-image">
+            <img src="image1.jpg" alt="Main Image" id="current-image">
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+        <div class="next-images">
+            <div class="next-image" data-index="1">
+                <img src="image2.jpg" alt="Next Image 1">
+            </div>
+            <div class="next-image" data-index="2">
+                <img src="image3.jpg" alt="Next Image 2">
+            </div>
+            <div class="next-image" data-index="3">
+                <img src="image4.jpg" alt="Next Image 3">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
